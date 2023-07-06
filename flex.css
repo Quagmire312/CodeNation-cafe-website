@@ -1,0 +1,113 @@
+/* .navbar {
+    display: flex;
+    background-color: #468ace88;
+    justify-content: left;
+    flex-flow: row nowrap;
+    height: 10%px;
+    min-width: 225px;
+    width: 17%;
+
+    position: sticky;
+    color: blue;
+} */
+
+/* * {
+    border: solid 1px #f00;
+
+} */
+
+.navbar {
+    position: fixed;
+    /* z-index: 1; */
+    bottom: 1;
+    right: 0;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background-color: #468ace88;
+}
+
+a{
+    color: blue;
+}
+
+a:hover {
+    color: rgb(26, 255, 0);
+    text-decoration: underline;
+}
+
+#home-title{
+    font-size: xx-large;
+    color: #101040;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+
+}
+
+.grey {
+    background-color: #cccccc64;
+
+}
+
+.endtext {
+    padding-bottom: 0px;
+
+}
+
+.imagediv {
+    display: flex;
+    justify-content: space-around;
+    background-color: #cccccc00;
+    flex-wrap: wrap;
+
+}
+
+.picture {
+    background-color: #aaaaaa33;
+
+}
+
+.fit {
+    object-fit: contain;
+    height: auto;
+    width: 480px;
+
+}
+
+.imagediv > div{
+    flex: 100%;
+    justify-content: left;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-image: url(./pics/background.jpg);
+    background-size: cover;
+
+}
+
+
+h1 {
+    background-color: #cccccc64;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    color: #0d0d67;
+}
+
+
+
+.nolist {
+    list-style: none;
+}
