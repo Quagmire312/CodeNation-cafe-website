@@ -76,14 +76,12 @@ a:hover {
 }
 
 .picture {
-    background-color: #aaaaaa33;
-
+    background-color: #aaaaaa00;
 }
 
 
-.picture :hover {
-    transform: translateY(-3%);
-
+.imagediv > *:hover {
+    transform: translateY(-20px);
 }
 
 
@@ -101,7 +99,7 @@ a:hover {
     margin-left: 100px;
     margin-bottom: 25px;
     margin-top: 25px;
-    background-color: #cccccc64;
+    background-color: #cccccc00;
 }
 
 
