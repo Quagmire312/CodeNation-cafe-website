@@ -29,6 +29,7 @@
     background-color: #468ace88;
 }
 
+
 a{
     color: blue;
 }
@@ -60,18 +61,31 @@ a:hover {
 
 }
 
+
+.margin {
+    margin-left: 70px;
+}
+
+
 .imagediv {
     display: flex;
     justify-content: space-around;
     background-color: #cccccc00;
     flex-wrap: wrap;
-
+    flex-direction: row;
 }
 
 .picture {
     background-color: #aaaaaa33;
 
 }
+
+
+.picture :hover {
+    transform: translateY(-3%);
+
+}
+
 
 .fit {
     object-fit: contain;
@@ -80,12 +94,14 @@ a:hover {
 
 }
 
-.imagediv > div{
-    flex: 100%;
-    justify-content: left;
+.imagediv > div {
+    flex: 40%;
+    justify-self: left;
+    align-self: center;
     margin-left: 100px;
     margin-bottom: 25px;
     margin-top: 25px;
+    background-color: #cccccc64;
 }
 
 
